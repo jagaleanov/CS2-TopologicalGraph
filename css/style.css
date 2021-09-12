@@ -1,0 +1,28 @@
+body{
+    background:#888888;
+}
+
+#mynetwork {
+    height: 500px;
+    border: 1px solid lightgray;
+}
+
+.verticalLine {
+    background: url('../img/pixel.gif') repeat-y top center;
+    /*background: #f00;*/
+}
+
+.horizontalLine {
+    background: url('../img/pixel.gif') repeat-x center left;
+    /*background: #0f0;*/
+}
+
+td {
+    font-size: 0.9em;
+    text-align: center;
+    min-width: 20px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: table-cell;
+}
